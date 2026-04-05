@@ -1,6 +1,6 @@
 {
     "uuid": "calendar-colors@hello112334.github.io",
-    "name": "Calendar Colors",
+    "name": "Calendar Plus",
     "description": "Highlights calendar days and can split notifications into a separate top bar menu.",
     "shell-version": [
         "45",
@@ -9,6 +9,6 @@
         "48"
     ],
     "settings-schema": "org.gnome.shell.extensions.calendarcolors",
-    "url": "https://github.com/hello112334/gnome-shell-extension-calendar-colors",
+    "url": "https://github.com/hello112334/gnome-shell-extension-calendar-plus",
     "version": 4
 }

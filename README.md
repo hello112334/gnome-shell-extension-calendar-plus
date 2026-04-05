@@ -1,4 +1,4 @@
-# Calendar Colors
+# Calendar Plus
 
 A GNOME Shell extension that highlights weekends, holidays, and event days in the calendar popup, with an optional split notifications menu for the top bar clock.
 
@@ -12,13 +12,13 @@ A GNOME Shell extension that highlights weekends, holidays, and event days in th
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/hello112334/gnome-shell-extension-calendar-colors.git
+   git clone https://github.com/hello112334/gnome-shell-extension-calendar-plus.git
    ```
 
 2. Copy the extension to your local extensions directory:
    ```bash
    mkdir -p ~/.local/share/gnome-shell/extensions
-   cp -r gnome-shell-extension-calendar-colors \
+   cp -r gnome-shell-extension-calendar-plus \
        ~/.local/share/gnome-shell/extensions/calendar-colors@hello112334.github.io
    ```
 
