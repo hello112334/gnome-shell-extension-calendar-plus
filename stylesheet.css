@@ -1,0 +1,12 @@
+/* calendar-colors extension stylesheet
+ *
+ * Colors are applied as inline styles from extension.js so they are
+ * user-configurable and always win over other extensions' CSS.
+ * This file only keeps structural rules that don't depend on user colors.
+ */
+
+/* Preserve the today ring when today is also a holiday or weekend */
+.calendar-day-holiday.calendar-today,
+.calendar-day-weekend.calendar-today {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

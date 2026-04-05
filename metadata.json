@@ -1,0 +1,9 @@
+{
+    "uuid": "calendar-colors@hello112334.github.io",
+    "name": "Calendar Colors",
+    "description": "Highlights weekends, holidays, and event days in the GNOME Shell calendar popup.",
+    "shell-version": ["45", "46", "47", "48"],
+    "settings-schema": "org.gnome.shell.extensions.calendarcolors",
+    "url": "https://github.com/hello112334/gnome-shell-extension-calendar-colors",
+    "version": 1
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.calendarcolors"
+          path="/org/gnome/shell/extensions/calendarcolors/">
+
+    <key name="holiday-dates" type="as">
+      <default>['2026-01-01', '2026-05-25', '2026-07-04', '2026-09-07',
+                '2026-11-26', '2026-12-25']</default>
+      <summary>Holiday dates</summary>
+      <description>
+        List of dates to highlight as holidays in the calendar popup.
+        Each entry must be an ISO 8601 date string in YYYY-MM-DD format.
+      </description>
+    </key>
+
+    <key name="enable-weekend-highlight" type="b">
+      <default>true</default>
+      <summary>Highlight weekends</summary>
+      <description>
+        When enabled, Saturday and Sunday cells are colored in the calendar popup.
+      </description>
+    </key>
+
+    <key name="enable-holiday-highlight" type="b">
+      <default>true</default>
+      <summary>Highlight holidays</summary>
+      <description>
+        When enabled, dates listed in holiday-dates are highlighted.
+      </description>
+    </key>
+
+    <key name="enable-event-highlight" type="b">
+      <default>true</default>
+      <summary>Highlight days with events</summary>
+      <description>
+        When enabled, calendar days that have scheduled events are highlighted.
+      </description>
+    </key>
+
+    <key name="weekend-color" type="s">
+      <default>'rgba(255,100,100,1)'</default>
+      <summary>Weekend highlight color</summary>
+      <description>Color applied to Saturday and Sunday cells.</description>
+    </key>
+
+    <key name="holiday-color" type="s">
+      <default>'rgba(255,160,50,0.28)'</default>
+      <summary>Holiday highlight color</summary>
+      <description>Background color applied to holiday cells.</description>
+    </key>
+
+    <key name="event-color" type="s">
+      <default>'rgba(90,155,255,1)'</default>
+      <summary>Event day highlight color</summary>
+      <description>Color for the underline shown on days with scheduled events.</description>
+    </key>
+
+  </schema>
+</schemalist>
