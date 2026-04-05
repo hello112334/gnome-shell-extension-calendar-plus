@@ -63,6 +63,18 @@ export default class CalendarColorsPreferences extends ExtensionPreferences {
             Gio.SettingsBindFlags.DEFAULT
         );
 
+        const splitRow = new Adw.SwitchRow({
+            title: _('Separate Notifications Menu'),
+            subtitle: _('Move notifications into their own header button next to the clock.'),
+        });
+        toggleGroup.add(splitRow);
+        settings.bind(
+            'separate-notifications-menu',
+            splitRow,
+            'active',
+            Gio.SettingsBindFlags.DEFAULT
+        );
+
         // --------------------------------------------------------- //
         // Page: Colors — color pickers
         // --------------------------------------------------------- //

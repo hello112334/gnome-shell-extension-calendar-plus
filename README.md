@@ -1,6 +1,6 @@
 # Calendar Colors
 
-A GNOME Shell extension that highlights weekends, holidays, and event days in the calendar popup.
+A GNOME Shell extension that highlights weekends, holidays, and event days in the calendar popup, with an optional split notifications menu for the top bar clock.
 
 ## Requirements
 
@@ -47,6 +47,8 @@ Click the clock in the top bar to open the calendar popup. The extension automat
 | Holiday | Colored background circle |
 | Event day | Colored underline |
 
+Optionally, the extension can move notifications into a separate header button next to the clock so the calendar popup only shows calendar-related content.
+
 ## Settings
 
 Open the extension preferences via:
@@ -64,6 +66,7 @@ Toggle each highlight type on or off:
 - **Highlight Weekends** — color Saturday and Sunday
 - **Highlight Holidays** — color dates from your holiday list
 - **Highlight Event Days** — mark days with scheduled GNOME Calendar events
+- **Separate Notifications Menu** — move notifications into their own header button next to the clock
 
 ### Colors
 Pick custom colors for each highlight type using the color chooser buttons.

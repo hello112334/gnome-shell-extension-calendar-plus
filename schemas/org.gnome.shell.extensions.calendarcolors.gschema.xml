@@ -37,6 +37,15 @@
       </description>
     </key>
 
+    <key name="separate-notifications-menu" type="b">
+      <default>false</default>
+      <summary>Split notifications into a separate header menu</summary>
+      <description>
+        When enabled, the message list is removed from the date menu and shown
+        in its own panel button next to the clock.
+      </description>
+    </key>
+
     <key name="weekend-color" type="s">
       <default>'rgba(255,100,100,1)'</default>
       <summary>Weekend highlight color</summary>

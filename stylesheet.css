@@ -10,3 +10,139 @@
 .calendar-day-weekend.calendar-today {
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
+
+.calendar-colors-notification-menu {
+    min-width: 24em;
+    min-height: 20em;
+}
+
+#panel .button-container.calendar-colors-split-date-container:ltr {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+#panel .button-container.calendar-colors-split-notification-container:ltr {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+#panel .button-container.calendar-colors-split-date-container:rtl {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+#panel .button-container.calendar-colors-split-notification-container:rtl {
+    padding-right: 0 !important;
+    margin-right: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-date-button:ltr {
+    border-right-width: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-notification-button:ltr {
+    border-left-width: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-date-button:rtl {
+    border-left-width: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-notification-button:rtl {
+    border-right-width: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-date-button .clock-display-box {
+    spacing: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-date-button .panel-status-indicators-box {
+    spacing: 0 !important;
+    min-width: 0 !important;
+    max-width: 0 !important;
+    width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#panel .panel-button.calendar-colors-split-date-button .messages-indicator {
+    min-width: 0 !important;
+    max-width: 0 !important;
+    width: 0 !important;
+    icon-size: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+}
+
+.message-list.calendar-colors-split-message-list {
+    border-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.message-list.calendar-colors-split-message-list .message-list-sections,
+.message-list.calendar-colors-split-message-list .message-list-section,
+.message-list.calendar-colors-split-message-list .message-list-section-list {
+    spacing: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.calendar-colors-notification-indicator {
+    opacity: 0.75;
+}
+
+.calendar-colors-notification-indicator.calendar-colors-notification-pending {
+    opacity: 1;
+}
+
+.calendar-colors-notification-scroll {
+    max-height: 28em;
+}
+
+.calendar-colors-notification-list {
+    spacing: 8px;
+    padding: 12px;
+}
+
+.calendar-colors-notification-row {
+    padding: 10px 12px;
+    border-radius: 10px;
+}
+
+.calendar-colors-notification-row:hover,
+.calendar-colors-notification-row:focus {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.calendar-colors-notification-row-box {
+    spacing: 10px;
+}
+
+.calendar-colors-notification-text {
+    spacing: 2px;
+}
+
+.calendar-colors-notification-title {
+    font-weight: 700;
+}
+
+.calendar-colors-notification-body,
+.calendar-colors-notification-empty {
+    opacity: 0.8;
+}
+
+.calendar-colors-notification-empty {
+    padding: 16px 12px;
+}
