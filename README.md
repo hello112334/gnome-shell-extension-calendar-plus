@@ -8,9 +8,23 @@ A GNOME Shell extension that highlights weekends, holidays, and event days in th
 
 ## Installation
 
-### Manual
+### From Release (recommended)
 
-1. Clone or download this repository:
+1. Download `calendar-colors@hello112334.github.io.zip` from the [Releases page](https://github.com/hello112334/gnome-shell-extension-calendar-plus/releases).
+
+2. Install it with:
+   ```bash
+   gnome-extensions install calendar-colors@hello112334.github.io.zip
+   ```
+
+3. Enable the extension:
+   ```bash
+   gnome-extensions enable calendar-colors@hello112334.github.io
+   ```
+
+4. Log out and back in (required on Wayland), or restart GNOME Shell (`Alt+F2` → `r` → Enter) on X11.
+
+### Manual (from source)
    ```bash
    git clone https://github.com/hello112334/gnome-shell-extension-calendar-plus.git
    ```
@@ -35,7 +49,7 @@ A GNOME Shell extension that highlights weekends, holidays, and event days in th
 
    Or use GNOME Extensions app / GNOME Tweaks.
 
-5. Log out and back in, or restart GNOME Shell (`Alt+F2` → type `r` → Enter) if on X11.
+5. Log out and back in (required on Wayland), or restart GNOME Shell (`Alt+F2` → `r` → Enter) on X11.
 
 ## Usage
 
